@@ -1,0 +1,41 @@
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><title>&lt;!DOCTYPE html&gt;</title></head><body><p dir="ltr">&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&nbsp;&nbsp; &lt;title&gt;Message to a friend&lt;/title&gt;<br>
+&lt;style type="text/css"&gt;<br>
+*{<br>
+&nbsp; margin: 0;<br>
+&nbsp; padding: 10px;<br>
+&nbsp; box-sizing: border-box;<br>
+}<br>
+form{<br>
+&nbsp; position: absolute;<br>
+&nbsp; top: 50%;<br>
+&nbsp; left: 50%;<br>
+&nbsp; transform: translate(-50%,-50%);<br>
+&nbsp; width: 100%;<br>
+&nbsp; background: black;<br>
+&nbsp; border-radius: 4px;<br>
+&nbsp; box-shadow: 4px 4px 30px 0 rgba(0,0,0,0.1);<br>
+}<br>
+button{<br>
+&nbsp; padding: 5px 10px;<br>
+&nbsp; margin-left: 30%;<br>
+&nbsp; border-radius: 2px;<br>
+}<br>
+&lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body style="background: skyblue; color: blue"&gt;<br>
+&nbsp; &lt;form&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;h1 id="show"&gt;&lt;/h1&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;button type="button" onclick="button()"&gt;Tap Here To Read Your Message&lt;/button&gt;<br>
+&nbsp; &lt;/form&gt;</p>
+<p dir="ltr">&nbsp;&nbsp; &lt;script&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var show = document.getElementById("show").value;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function button() {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("show").innerHTML = " Hello Zuks, you have been a good friend to me and may you continue being a good friend to others. May God bless you with more happy days in your life and a happy New Year&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;Yours Truly Friend&lt;br&gt;&lt;/br&gt;Njabulo";<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp; &lt;/script&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</p>
+</body></html>
